@@ -19,7 +19,7 @@
         <maven.compiler.meminitial>128m</maven.compiler.meminitial>
     </properties>
 
-    <url>https://github.com/inreachventures/aws-signing-request-interceptor</url>
+    <url>https://github.com/tremorvideo/aws-signing-request-interceptor</url>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -27,8 +27,8 @@
         </license>
     </licenses>
     <scm>
-        <connection>scm:git:git@github.com:inreachventures/aws-signing-request-interceptor.git</connection>
-        <url>https://github.com/inreachventures/aws-signing-request-interceptor</url>
+        <connection>scm:git:git@github.com:tremorvideo/aws-signing-request-interceptor.git</connection>
+        <url>https://github.com/tremorvideo/aws-signing-request-interceptor</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -43,12 +43,12 @@
 
     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>lib-snapshots</id>
+            <url>http://dev-install-1.sscorp:8081/artifactory/libs-snapshots-local/</url>
         </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>lib-releases</id>
+            <url>http://dev-install-1.sscorp:8081/artifactory/libs-releases-local/</url>
         </repository>
     </distributionManagement>
 
